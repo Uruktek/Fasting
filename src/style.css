@@ -1,5 +1,9 @@
 #container {
     margin: 20px;
     width: 200px;
-    height: 100px;
+    height: 200px;
+}
+
+*{
+    justify-content: center;
 }
