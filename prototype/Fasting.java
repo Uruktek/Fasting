@@ -15,7 +15,7 @@ public class Fasting{
     //Setters
     public void setExpectedEnd(int end) {
         if (endTime > 25) { //Error checking for beyond 24 hrs
-            System.out.println("Time is out of bounds!");
+            System.out.println("Time is out of bound!");
             endTime = 0;
         } else {
             endTime = end;
